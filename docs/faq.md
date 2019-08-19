@@ -137,3 +137,8 @@ the [Architecture documentation](./architecture.md#docker-networking)
 The user interface is based in the open-sourced [Apache Superset](http://superset.apache.org),
 so you can also refer to [Superset tutorials](http://superset.apache.org/tutorial.html)
 for advanced usage of the web interface.
+
+
+## I Get IOError: [Errno 13] Permission denied: u'./.env'
+
+This happens if you have installed Docker from snap packages. This is not supported, please install it following [the official documentation](https://docs.docker.com/install/) ([#78](https://github.com/src-d/sourced-ce/issues/78)).
